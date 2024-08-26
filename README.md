@@ -19,7 +19,7 @@ O padrão Composite é exatamente isso: podemos tratar um único objeto ou uma e
 
 Ao receber um pedido, um contêiner delega o trabalho para seus sub-elementos, processa os resultados intermediários, e então retorna o resultado final para o cliente.
 
-* O **Clienete** trabalha com todos os elementos através da interface componente. Como resultado, o cliente pode trabalhar da mesma forma tanto com elementos simples como elementos complexos da árvore.
+* O **Cliente** trabalha com todos os elementos através da interface componente. Como resultado, o cliente pode trabalhar da mesma forma tanto com elementos simples como elementos complexos da árvore.
 
   ## Vantagens
 
