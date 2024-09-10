@@ -1,4 +1,4 @@
-package estrutural.composite.autentication;
+package autentication;
 
 import java.util.ArrayList;
 
@@ -14,7 +14,7 @@ public class CompositePasswordValidator {
     }
 
     public CompositePasswordValidator(PasswordValidation... validators) {
-        this.validators = new ArrayList<>();
+        this.validators = new ArrayList<PasswordValidation>();
         for (PasswordValidation validator : validators) {
             this.validators.add(validator);
         }
@@ -24,6 +24,7 @@ public class CompositePasswordValidator {
         this.validators.add(validator);
     }
 
+    // @Override
     public boolean validate(String password) {
         for (PasswordValidation validator : validators) {
             if (!validator.validate(password)) {

@@ -1,4 +1,4 @@
-package estrutural.composite.autentication;
+package autentication;
 
 /** Leaf
  * UppercaseValidator
