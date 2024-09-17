@@ -1,4 +1,4 @@
-package autentication;
+package pattern.autentication;
 
 import java.util.Scanner;
 

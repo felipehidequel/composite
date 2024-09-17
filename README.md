@@ -29,6 +29,12 @@ Ao receber um pedido, um contêiner delega o trabalho para seus sub-elementos, p
   ## Desvantagens
   * Pode ser difícil providenciar uma interface comum para classes cuja funcionalidade difere muito. Em certos cenários, você precisaria generalizar muito a interface componente, fazendo dela uma interface de dificil compreensão.
 
+## Diagrama sem composite
+![Diagrama uml](imgs/diagrama_sem_padrao.png)
+
+## Diagrama com composite
+![Diagrama uml](imgs/diagrama_com_padrao.png)
+
 ## Referencias
 * https://refactoring.guru/pt-br/design-patterns/composite
 * https://www.youtube.com/watch?v=VFGaqoxA_lo

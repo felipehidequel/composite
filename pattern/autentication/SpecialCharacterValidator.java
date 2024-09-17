@@ -1,4 +1,4 @@
-package autentication;
+package pattern.autentication;
 
 public class SpecialCharacterValidator implements PasswordValidation{
     // @Override
